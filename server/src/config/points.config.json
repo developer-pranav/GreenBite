@@ -1,0 +1,9 @@
+{
+    "create": 20,
+    "login": 3,
+    "decision": {
+        "breakfast": 5,
+        "lunch": 8,
+        "dinner": 10
+    }
+}
