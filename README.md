@@ -43,7 +43,6 @@ git clone https://github.com/your-username/greenbite.git
 cd greenbite
 ```
 
----
 
 2. Setup Backend:
 
@@ -66,7 +65,6 @@ Run backend:
 npm start
 ```
 
----
 
 3. Setup Frontend:
 
