@@ -13,9 +13,6 @@ GreenBite is a smart web-based application designed to reduce food wastage in ho
 * **REST APIs**: Smooth communication between frontend and backend.
 
 
-
-
-
 ## 🛠️ Tech Stack
 
 * **Frontend**: React.js
@@ -32,7 +29,7 @@ GreenBite is a smart web-based application designed to reduce food wastage in ho
 * Node.js & npm
 * MongoDB (local or cloud e.g. MongoDB Atlas)
 
----
+
 
 ### Steps
 
@@ -111,4 +108,3 @@ We appreciate your contributions!
 For any questions or suggestions, please open an issue or contact
 [Developer Pranav](mailto:developer.pranav3306@gmail.com)
 
----
