@@ -1,4 +1,4 @@
-# <img src="assets/logo.png" alt="GreenBite" align="center" height="35"> GreenBite – Smart Hostel Meal Decision System
+# <img src="client/src/assets/icon.png" alt="GreenBite" align="center" height="35"> GreenBite – Smart Hostel Meal Decision System
 
 GreenBite is a smart web-based application designed to reduce food wastage in hostels by allowing students to make informed meal decisions. It enables users to mark whether they will eat or skip meals and rewards responsible behavior through a points-based system.
 
