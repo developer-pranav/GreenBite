@@ -1,76 +1,22 @@
-# GreenBite – Smart Hostel Meal Decision System
+# <img src="assets/logo.png" alt="GreenBite" align="center" height="35"> GreenBite – Smart Hostel Meal Decision System
 
-GreenBite is a smart web-based solution designed to help hostels reduce food waste by enabling students to make informed meal choices. The system allows users to mark whether they will eat or skip meals, while rewarding responsible decisions through a points-based system.
+GreenBite is a smart web-based application designed to reduce food wastage in hostels by allowing students to make informed meal decisions. It enables users to mark whether they will eat or skip meals and rewards responsible behavior through a points-based system.
 
----
 
 ## 🚀 Features
 
-* **Role-Based System**
-  Separate dashboards for **Admin** and **Students** to manage meals and user interactions efficiently.
+* **Role-Based System**: Separate dashboards for Admin and Students.
+* **Meal Decision System**: Students can mark meals as *Eat* or *Skip*.
+* **Reward System**: Earn points for responsible meal decisions.
+* **Real-Time Meal Tracking**: Track meal counts dynamically.
+* **Admin Controls**: Manage users, meals, bookings, and coupons.
+* **REST APIs**: Smooth communication between frontend and backend.
 
-* **Meal Decision System**
-  Students can mark meals as *Eat* or *Skip* in advance.
 
-* **Reward System**
-  Points-based rewards to encourage reduced food wastage.
 
-* **Real-Time Meal Tracking**
-  Admins can monitor meal counts and manage food preparation accordingly.
 
-* **Admin Controls**
-  Manage users, meals, bookings, and coupons easily.
 
-* **REST API Integration**
-  Efficient backend communication using RESTful APIs.
-
----
-
-## ⚙️ Installation
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/developer-pranav/greenbite.git
-cd greenbite
-```
-
----
-
-### 2. Setup Backend (Server)
-
-```bash
-cd server
-npm install
-```
-
-Create a `.env` file in the server folder and add:
-
-```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-```
-
-Run the backend:
-
-```bash
-npm start
-```
-
----
-
-### 3. Setup Frontend (Client)
-
-```bash
-cd client
-npm install
-npm start
-```
-
----
-
-## 🧰 Tech Stack
+## 🛠️ Tech Stack
 
 * **Frontend**: React.js
 * **Backend**: Node.js, Express.js
@@ -78,53 +24,93 @@ npm start
 * **Authentication**: JWT
 * **API**: REST APIs
 
+
+## 💾 Installation
+
+### Prerequisites
+
+* Node.js & npm
+* MongoDB (local or cloud e.g. MongoDB Atlas)
+
 ---
 
-## 🔄 Project Workflow
+### Steps
 
-```text
-User (React Frontend)
-        ↓
-API Request (Fetch)
-        ↓
-Express Routes
-        ↓
-Controllers
-        ↓
-MongoDB (Database)
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/greenbite.git
+cd greenbite
 ```
 
 ---
 
-## 📊 Use Case
+2. Setup Backend:
 
-* Helps hostels estimate exact meal demand
-* Reduces unnecessary food preparation
-* Encourages students to make responsible decisions
-* Tracks participation through reward points
+```bash
+cd server
+npm install
+```
+
+Create a `.env` file in the server folder:
+
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
+
+Run backend:
+
+```bash
+npm start
+```
 
 ---
 
-## 📜 License
+3. Setup Frontend:
 
-This project is licensed under the MIT License.
+```bash
+cd client
+npm install
+npm start
+```
 
----
+
+## 📡 Usage
+
+1. Register/Login as a student or admin.
+2. Students can select meals (Eat/Skip).
+3. Admin can monitor meal data and manage system.
+4. Earn points for smart meal decisions.
+
+
+## 🔧 Configuration
+
+* Set your MongoDB URI and JWT secret in `.env` file.
+* Ensure backend runs on correct port before starting frontend.
+
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
+
 
 ## 🤝 Contributing
 
 Want to contribute? Follow these steps:
 
-1. Fork the repository
-2. Create a branch (`git checkout -b feature/YourFeature`)
-3. Commit changes (`git commit -m 'Add feature'`)
-4. Push to GitHub (`git push origin feature/YourFeature`)
-5. Open a Pull Request
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -am 'Add feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Create a new Pull Request.
 
----
+We appreciate your contributions!
 
-## 📩 Contact
+## 📞 Contact
 
-For any queries or suggestions, feel free to open an issue or reach out [Developer Pranav](mailto:developer.pranav3306@gmail.com)..
+For any questions or suggestions, please open an issue or contact
+[Developer Pranav](mailto:developer.pranav3306@gmail.com)
 
 ---
